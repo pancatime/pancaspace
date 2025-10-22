@@ -2,14 +2,60 @@
 <html>
 <head>
     <link rel="stylesheet" href="normalize.css">
-    <title>pancaspace</title> 
+    <title>Panca Space</title> 
 </head>
 <body style="background-color: black; color: white;">
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-<p>My second paragraph.</p>
-<p>My third paragraph.</p>
+<div style="display: grid; grid-template-rows: 100vh repeat(2, auto);">
+    <header style="background-color: black">
+        <div style="display: grid; place-items: center; height: 100%;">
+            <div style="overflow: hidden; width: 256px; height: 256px; border: 10px solid #344163; border-radius: 100%;">
+                <img src="media/default_256x256.png" width="256" height="256" style="width: 100%; height: auto;" draggable="false" alt="Panca waving"/>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div style="max-width: 1000px; margin: auto; padding: 1em;">
+            <h2>Showcase</h2>
+            <ul style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(auto-fill, 300px); grid-gap: 5em; list-style-type: none; padding: 0;">
+                <li>
+                    <figure style="width: 300px; margin: 0; overflow: hidden;">
+                        <img src="media/art/concept.png" width="300" height="300" alt="Concept art"/>
+                        <figcaption>Art</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0; overflow: hidden;">
+                        <img src="media/art/deposit.png" width="300" height="300" alt="Concept art"/>
+                        <figcaption>Art</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0; overflow: hidden;">
+                        <img src="media/art/kainoh.png" width="300" height="300" alt="Concept art" >
+                        <figcaption>Art</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0; overflow: hidden;">
+                        <img src="media/art/portrait.png" width="378" height="300" alt="Concept art"/>
+                        <figcaption>Art</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0; overflow: hidden;">
+                        <img src="media/art/yerurie.png" width="300" height="300" alt="Concept art"/>
+                        <figcaption>Art</figcaption>
+                    </figure>
+                </li>
+
+            </ul>
+        </div>
+    </main>
+    <footer style="background-color: blue;">
+        heya
+    </footer>
+</div>
 
 </body>
 </html>
