@@ -27,13 +27,15 @@
 </head>
 <body style="background-color: black; background-image: url('media/stars.png'); background-attachment: fixed; background-size: cover; color: white;">
 
-<header>
+<main>
     <div style="display: grid; place-items: center; height: 100vh;">
-        <h1 style="font-size: large; position: absolute; bottom: 0; right: 16px; opacity: 25%; margin: 16px 0;">Transmissions of Panca</h1>
-        <div style="overflow: hidden; width: 256px; height: 256px; border: 10px solid #344163; border-radius: 100%;">
+        <header style="position: absolute; bottom: 0; left: 16px;">
+            <h1 style="font-size: large; opacity: 25%; margin: 16px 0;">Transmissions of Panca</h1>
+        </header>
+        <div style="overflow: hidden; width: 256px; height: 256px; border: 10px solid #344163; border-radius: 100%; position: absolute; transform: translate(0, -100px);">
             <img src="media/default_256x256.png" width="256" height="256" style="width: 100%; height: auto;" draggable="false" alt="Panca waving"/>
         </div>
-        <nav style="position: absolute; transform: translate(0, 200px);">
+        <nav style="position: absolute; transform: translate(0, 100px);">
             <ul style="list-style-type: none; padding: 0; color: white; font-family: 'Press Start 2P', system-ui; display: flex; text-shadow: -2px 0 0 cyan;">
                 <li style="margin: 0 20px;">
                     <a href="">Blog</a>
@@ -46,11 +48,11 @@
                 </li>
             </ul>
         </nav>
-        <footer style="position: absolute; bottom: 0; left: 16px;">
+        <footer style="position: absolute; bottom: 0; right: 16px;">
             <span style="text-align: center; opacity: 25%; margin: 16px 0; display: block;">Copyright 2025 © Panca</span>
         </footer>
     </div>
-</header>
+</main>
 
 </body>
 </html>
