@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Panca Space</title> 
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            font-size: large;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            font-family: "Press Start 2P", system-ui;
+            font-weight: 400;
+            font-style: normal;
+        }
+        a {
+            color: aqua;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body style="background-color: black; background-image: url('media/stars.png'); background-attachment: fixed; background-size: cover; color: white;">
+
+<div style="display: grid; grid-template-rows: repeat(3, auto); max-width: 1200px; margin: auto;">
+    <header>
+        <div style="display: grid; place-items: center; height: 100vh;">
+            <div style="overflow: hidden; width: 256px; height: 256px; border: 10px solid #344163; border-radius: 100%;">
+                <img src="media/default_256x256.png" width="256" height="256" style="width: 100%; height: auto;" draggable="false" alt="Panca waving"/>
+            </div>
+            <p style="position: absolute; text-align: center; transform: translate(0, 200px);">
+                Heya, my name is Panca! This is a temporary website. <br/>
+                <br/>
+                Scroll down for more.
+            </p>
+        </div>
+        <!--
+        <nav style="width: 512px; margin: auto auto 12em auto;">
+            <h2 style="text-shadow: -2px 0px 0px cyan; text-align: center;">I have a Blog!</h2>
+            <p>
+                Cool stuff about blogs
+            </p>
+            <a style="padding: 1em; border: 2px solid cyan; border-radius: 20px; display: block; width: fit-content; margin: auto;" href="">
+                <span style="font-family: 'Press Start 2P', system-ui; font-size: x-large;">Go to Blog</span>
+            </a>
+        </nav>
+        -->
+    </header>
+    <main>
+        <div style="margin-bottom: 12em;">
+            <h2 style="text-shadow: -2px 0px 0px cyan; text-align: center;">Showcase</h2>
+            <ul style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(auto-fill, 300px); grid-gap: 5em; list-style-type: none; padding: 0; width: fit-content; margin: auto">
+                <li>
+                    <figure style="width: 300px; margin: 0;">
+                        <a href="media/art/concept.png" target="_blank">
+                            <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 20px;">
+                                <img src="media/art/concept.png" width="300" height="300" alt="Concept art"/>
+                            </div>
+                        </a>
+                        <figcaption style="margin-top: 16px;">Concept art</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0;">
+                        <a href="media/art/deposit.png" target="_blank">
+                            <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 20px;">
+                                <img src="media/art/deposit.png" width="300" height="300" alt="Concept art"/>
+                            </div>
+                        </a>
+                        <figcaption style="margin-top: 16px;">Concept art</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0;">
+                        <a href="media/art/kainoh.png" target="_blank">
+                            <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 20px;">
+                                <img src="media/art/kainoh.png" width="300" height="300" alt="Concept art" >
+                            </div>
+                        </a>
+                        <figcaption style="margin-top: 16px;">Fanart of <a href="https://bsky.app/profile/cainomura.bsky.social" target="_blank">Cainomura(Kainoh)</a></figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0;">
+                        <a href="media/art/portrait.png" target="_blank">
+                            <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 20px;">
+                                <img src="media/art/portrait.png" width="378" height="300" alt="Concept art"/>
+                            </div>
+                        </a>
+                        <figcaption style="margin-top: 16px;">Self portrait</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure style="width: 300px; margin: 0;">
+                        <a href="media/art/yerurie.png" target="_blank">
+                            <div style="width: 300px; height: 300px; overflow: hidden; border-radius: 20px;">
+                                <img src="media/art/yerurie.png" width="300" height="300" alt="Concept art"/>
+                            </div>
+                        </a>
+                        <figcaption style="margin-top: 16px;">Fanart of <a href="https://x.com/yerurietwitch" target="_blank">Yerurie</a></figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </div>
+        <div style="margin-bottom: 12em;">
+            <h2 style="text-shadow: -2px 0px 0px cyan; text-align: center;">Links</h2>
+            <ul style="list-style-type: none; padding: 0; text-align: center;">
+                <li style="margin-top: 10px;"><a href="https://www.youtube.com/@pancatime" target="_blank">Youtube</a></li>
+                <li style="margin-top: 10px;"><a href="https://www.youtube.com/playlist?list=PLVJ6pn-pWuReAAhXbIhZUPTDKFp2aWnmK" target="_blank">Music while I clean my room</a></li>
+                <li style="margin-top: 10px;"><a href="https://github.com/pancatime" target="_blank">Github</a></li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <span style="text-align: center; display: block; margin-top: 256px;">Copyright 2025 © Panca</span>
+    </footer>
+</div>
+
+</body>
+</html>
